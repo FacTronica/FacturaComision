@@ -64,15 +64,13 @@ $url_proveedor="";
 $CONFACTRONICA["FOLDERPDF"]="almacen_local";                                                                   
 # NOMBRE DE LA CARPETA REMOTA DE ALMACENAMIENTO                                                                
 $CONFACTRONICA["FOLDERFILES"]="almacen_remoto";                                                                
-                                                                                                               
-                                                                                                               
+
 ##############################################################                                                 
 #######                                                                                                        
 ##############################################################                                                 
 # NOMBRE DEL ARCHIVO PLANO QUE ESTA ENVIANDO                                                                   
 $CONFACTRONICA["FILETXT"]="envio_dte.txt";                                                                     
-                                                                                                               
-                                                                                                               
+
 ##############################################################                                                 
 #######                                                                                                        
 ##############################################################                                                 
@@ -84,9 +82,7 @@ $CONFACTRONICA["FILEPDFCLIENTE"]="PDFC_RUT89428000-K_TIPO33_FOLIO38.pdf";
 $CONFACTRONICA["FILEPNG"]="PDF4189428000-K_TIPO33_FOLIO38.png";
 # NOMBRE DEL ARCHIVO XML CON LA RESPUESTA DEL SII (TRACKID)                                                    
 $CONFACTRONICA["TRACKID"]="TRACKID_RUT89428000-K_TIPO33_FOLIO38.xml";
-                                                                                                               
-                                                                                                               
-                                                                                                               
+
 ##############################################################                                                 
 ####### NOMBRE DE ARCHIVOS XML POR FIRMAR                                                                      
 ##############################################################                                                 
@@ -94,8 +90,7 @@ $CONFACTRONICA["TRACKID"]="TRACKID_RUT89428000-K_TIPO33_FOLIO38.xml";
 $CONFACTRONICA["DTEPORFIRMAR"]="DTEPORFIRMAR_RUT89428000-K_TIPO33_FOLIO38.xml";
 # NOMBRE DEL ARCHIVO DEL SET POR FIRMAR                                                                        
 $CONFACTRONICA["SETDTEPORFIRMAR"]="SETPORFIRMAR_RUT89428000-K_TIPO33_FOLIO38.xml";
-                                                                                                               
-                                                                                                               
+
 ##############################################################                                                 
 ####### NOMBRE DE ARCHIVOS XML FIRMADOS                                                                        
 ##############################################################                                                 
@@ -105,9 +100,7 @@ $CONFACTRONICA["DTEFIRMADO"]="DTEFIRMADO_RUT89428000-K_TIPO33_FOLIO38.xml";
 $CONFACTRONICA["SETDTEFIRMADO_CLIENTE"]="SETFIRMADOCLIENTE_RUT89428000-K_TIPO33_FOLIO38.xml";
 # NOMBBRE DEL ARCHIVO DEL SET FIRMADO Y QUE SE ENVIARA AL SII POR MEDIO DE WEBSERVICES                         
 $CONFACTRONICA["SETDTEFIRMADO_SII"]="SETFIRMADOSII_RUT89428000-K_TIPO33_FOLIO38.xml";
-                                                                                                               
-                                                                                                               
-                                                                                                               
+
 ##############################################################                                                 
 #######   CARATULA                                                                                             
 ##############################################################                                                 
@@ -151,7 +144,7 @@ $IdDoc["Folio"]="245";
 #                                                                                                              
 # INDICADOR DE LINEAS EN VALORES BRUTOS 1=SI 0=NO                                                              
 $IdDoc["MntBruto"]="0";
-                                                                                                               
+
 ##############################################################                                                 
 #######   EMISOR                                                                                               
 ##############################################################                                                 
@@ -252,6 +245,8 @@ $Totales["ValComIVA"]="111";
 #
 # MONTO TOTAL BRUTO                                                                                            
 $Totales["MntTotal"]="11900";
+
+
 ##############################################################                                                 
 #######    DETALLE                                                                                             
 ##############################################################                                                 
@@ -278,6 +273,9 @@ $detalle["1"]["TpoDocLiq"]="0";
 $detalle["1"]["IndExe"]="0";
  
  
+##############################################################                                                 
+#######  COMISIONES U OTROS CARGOS
+##############################################################                                                 
 # 
 # N° de Línea o N° Secuencial
 # Número de comisión u otro cargo. De 1 a 20.
@@ -291,35 +289,22 @@ $Comisiones["1"]["TipoMovim"]="C";
 # Especificación de la comisión u otro cargo
 $Comisiones["1"]["Glosa"]="1";
 # 
-#  
-#  
+# Tasa comisión u otro cargo
+# Valor porcentual de la comisión u otro cargo, en 2 enteros y 2 decimales 
 $Comisiones["1"]["TasaComision"]="1";
 # 
-# 
-# 
+# Valor Comisión Neto
+# Valor Neto de la comisión/otro cargo
 $Comisiones["1"]["ValComNeto"]="1";
 # 
-#  
-#  
+# Valor Comisión Exento
+# Valor Exento de la comisión/otro cargo
 $Comisiones["1"]["ValComExe"]="1";
 # 
 # Valor IVA Comisión u Otro Cargo
 # Valor del IVA de la comisión/otros cargos
 $Comisiones["1"]["ValComIVA"]="1"; 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  
 ##############################################################                                                 
 #######   DATOS CERTIFICADO DE PERSONA QUE FIRMA Y ENVIA                                                       
